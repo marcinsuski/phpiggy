@@ -9,9 +9,6 @@ use App\Controllers\HomeController;
 
 $app = new App();
 
-$app->get('/', [HomeController::class, 'home'] );
-
-
-dd($app);
+$app->get('/', [HomeController::class, 'home']);
 
 return $app;
